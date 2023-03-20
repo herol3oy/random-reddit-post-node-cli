@@ -1,0 +1,19 @@
+{
+  "name": "random-reddit-post-node-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "reddit": "./reddit.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "open": "^9.0.0",
+    "yargs": "^17.7.1"
+  }
+}
